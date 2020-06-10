@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="6.799">
+<testcase classname="Application login" name="Home Page login" time="0.797">
+<system-out><![CDATA[Given The user is on the facebook login page................................skipped
+When the user enters "ramya" and "1234".....................................skipped
+Then validate successful login..............................................skipped
+And check cards are present "false".........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Application login" name="Home Page login" time="0.088">
+<system-out><![CDATA[Given The user is on the facebook login page................................skipped
+When the user gives user1 and pwd1..........................................skipped
+Then validate successful login..............................................skipped
+And check cards are present "false".........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Application login" name="Home Page login 2" time="0.046">
+<system-out><![CDATA[Given The user is on the facebook login page................................skipped
+When the user gives user2 and pwd2..........................................skipped
+Then validate successful login..............................................skipped
+And check cards are present "false".........................................skipped
+]]></system-out>
+</testcase>
+<testcase classname="Application login" name="Home Page login 3" time="0.121">
+<system-out><![CDATA[Given The user is on the facebook login page................................skipped
+When the user enters  the credentials.......................................skipped
+Then validate successful login..............................................skipped
+]]></system-out>
+</testcase>
+</testsuite>
