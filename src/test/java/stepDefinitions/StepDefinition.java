@@ -34,6 +34,7 @@ public class StepDefinition {
 	@And("^check cards are present \"([^\"]*)\"$")
     public void check_cards_are_present(String strArg1) {
        System.out.println("print cards status");
+       System.out.println("bettu");
        
        }
 	 @When("^the user enters  the credentials$")
