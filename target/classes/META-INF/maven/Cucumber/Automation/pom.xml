@@ -1,19 +1,20 @@
-<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <groupId>Cucumber</groupId>
-  <artifactId>Automation</artifactId>
-  <version>0.0.1-SNAPSHOT</version>
-  <packaging>jar</packaging>
+	<groupId>Cucumber</groupId>
+	<artifactId>Automation</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
 
-  <name>Automation</name>
-  <url>http://maven.apache.org</url>
+	<name>Automation</name>
+	<url>http://maven.apache.org</url>
 
-  <properties>
-    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-  </properties>
-   <build>
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	<build>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
@@ -46,12 +47,7 @@
                                 <param>**/*.json</param>
                             </jsonFiles>
                             <!-- optional, defaults to outputDirectory if not specified -->
-                            <classificationDirectory>${project.build.directory}/classifications</classificationDirectory>
-                            <classificationFiles>
-                                    <!-- supports wildcard or name pattern -->
-                                    <param>sample.properties</param>
-                                    <param>other.properties</param>
-                            </classificationFiles>
+                      
                             <parallelTesting>false</parallelTesting>
                             <!-- optional, set true to group features by its Ids -->
                             <mergeFeaturesById>false</mergeFeaturesById>
@@ -66,17 +62,17 @@
         </plugins>
     </build>
 
-  <dependencies>
-    <dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-java</artifactId>
-    <version>5.6.0</version>
-</dependency>
-<dependency>
-    <groupId>io.cucumber</groupId>
-    <artifactId>cucumber-junit</artifactId>
-    <version>5.6.0</version>
-    <scope>test</scope>
-</dependency>
-  </dependencies>
+	<dependencies>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-java</artifactId>
+			<version>5.6.0</version>
+		</dependency>
+		<dependency>
+			<groupId>io.cucumber</groupId>
+			<artifactId>cucumber-junit</artifactId>
+			<version>5.6.0</version>
+			<scope>test</scope>
+		</dependency>
+	</dependencies>
 </project>

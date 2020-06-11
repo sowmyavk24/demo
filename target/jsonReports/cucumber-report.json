@@ -1,0 +1,355 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-11T06:42:10.994Z",
+        "line": 11,
+        "name": "Home Page login",
+        "description": "",
+        "id": "application-login;home-page-login",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 12,
+            "name": "The user is on the facebook login page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_netbanking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 13,
+            "name": "the user enters \"ramya\" and \"1234\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "ramya",
+                  "offset": 17
+                },
+                {
+                  "val": "1234",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.the_user_enters_credentials(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 14,
+            "name": "validate successful login",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.validate_successful_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "check cards are present \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.check_cards_are_present(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoketest"
+          }
+        ]
+      }
+    ],
+    "name": "Application login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/login.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-06-11T06:42:11.433Z",
+        "line": 13,
+        "name": "Home Page login",
+        "description": "",
+        "id": "application-login;home-page-login;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "The user is on the facebook login page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_netbanking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user gives user1 and pwd1",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user1",
+                  "offset": 15
+                },
+                {
+                  "val": "pwd1",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.the_user_gives_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "validate successful login",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.validate_successful_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "check cards are present \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.check_cards_are_present(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-11T06:42:11.471Z",
+        "line": 14,
+        "name": "Home Page login",
+        "description": "",
+        "id": "application-login;home-page-login;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "The user is on the facebook login page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_netbanking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "the user gives user2 and pwd2",
+            "match": {
+              "arguments": [
+                {
+                  "val": "user2",
+                  "offset": 15
+                },
+                {
+                  "val": "pwd2",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.the_user_gives_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "validate successful login",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.validate_successful_login()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3000000,
+              "status": "skipped"
+            },
+            "line": 8,
+            "name": "check cards are present \"false\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "false",
+                  "offset": 25
+                }
+              ],
+              "location": "stepDefinitions.StepDefinition.check_cards_are_present(java.lang.String)"
+            },
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Smoketest"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-06-11T06:42:11.503Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "stepDefinitions.HooksClass.beforeMobileTest()"
+            }
+          }
+        ],
+        "line": 17,
+        "name": "Home Page login",
+        "description": "",
+        "id": "application-login;home-page-login",
+        "after": [
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "match": {
+              "location": "stepDefinitions.HooksClass.afterMobileTest()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "skipped"
+            },
+            "line": 18,
+            "name": "The user is on the facebook login page",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.user_netbanking_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 19000000,
+              "status": "skipped"
+            },
+            "line": 19,
+            "name": "the user enters  the credentials",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.the_user_enters_the_credentials(io.cucumber.datatable.DataTable)"
+            },
+            "rows": [
+              {
+                "cells": [
+                  "sow",
+                  "123",
+                  "chand",
+                  "456"
+                ]
+              },
+              {
+                "cells": [
+                  "kar",
+                  "24",
+                  "bettu",
+                  "96"
+                ]
+              }
+            ],
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "skipped"
+            },
+            "line": 22,
+            "name": "validate successful login",
+            "match": {
+              "location": "stepDefinitions.StepDefinition.validate_successful_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@Mobiletest"
+          }
+        ]
+      }
+    ],
+    "name": "Application login",
+    "description": "",
+    "id": "application-login",
+    "keyword": "Feature",
+    "uri": "file:src/test/java/feature/loginexample.feature",
+    "tags": []
+  }
+]

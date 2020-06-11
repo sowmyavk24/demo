@@ -10,7 +10,7 @@ import io.cucumber.junit.CucumberOptions;
 		features="src/test/java/feature",
 		glue ="stepDefinitions",tags= {"@Mobiletest or @Smoketest"},
 		dryRun=true,monochrome=true,strict=true,
-		plugin= {"pretty","html:target/cucumber","json:target/jsonReports.json",
+		plugin= {"pretty","html:target/cucumber","json:target/jsonReports/cucumber-report.json",
 				"junit:target/cucumber.xml"})
 
 		
